@@ -91,7 +91,7 @@ void HalfLight() {
  *  Critical/explanation : no
  **************************************************************/
 void LightsOn() {
-	ParkLamps_OFF();
+	ParkLamps_ON();
 	HeadLamps_ON();
 }
 

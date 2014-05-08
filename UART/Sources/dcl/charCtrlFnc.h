@@ -16,8 +16,8 @@
 
 #include "io.h"
 #include "libs.h"
-//#include "variables.h"
-
+#include "Variables.h"
+/*
 typedef struct {
 	T_UBYTE bit0 :1;
 	T_UBYTE bit1 :1;
@@ -86,17 +86,19 @@ re_stopBitStatus re_sbStatus;
 // enum checksum status variable
 re_checksumStatus re_checksum;
 
+*/
 
-
-void str_ctrl();
 void char_comp(T_UBYTE lub_char, T_UBYTE lub_charNumber);
-void ignition();
-void selector();
-void lightSensor();
-void stopBit();
+void CharProcess();
+void nibble_comp(T_UBYTE lub_nibble, T_UBYTE lub_nibbleNum);
+void NibbleProcess();
+T_UBYTE checksum_add();
 void checksum();
+void stopBit();
+void Ignition();
+void sel_lightSensor();
+void ign_select();
+void Output_selection();
 void infoBits();
-void actuator();
-//void print_str();
 
 #endif /* CHARCTRLFNC_H_ */

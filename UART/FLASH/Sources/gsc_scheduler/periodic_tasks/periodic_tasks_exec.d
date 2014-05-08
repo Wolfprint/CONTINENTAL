@@ -4,9 +4,9 @@ Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o: \
  C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/common.prefix \
  C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_c_version.h \
  ../Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.h \
- C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/stdtypedef.h \
- C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/derivative.h \
- C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/MKL25Z4.h \
+ C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/stdtypedef.h \
+ C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/derivative.h \
+ C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/MKL25Z4.h \
  C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/stdint.h \
  C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/ansi_parms.h \
  C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewlGlobals.h \
@@ -17,13 +17,14 @@ Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o: \
  C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_lib_ext1.h \
  ../Sources/gsc_scheduler/periodic_tasks/periodic_tasks_modules.h \
  ../Sources/gsc_scheduler/periodic_tasks/..\..\mcl\IO_PinCfg.h \
- C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/derivative.h \
+ C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/derivative.h \
  ../Sources/gsc_scheduler/periodic_tasks/..\..\app\actuatorApp.h \
  ../Sources/gsc_scheduler/periodic_tasks/..\..\app\..\dcl\charCtrlFnc.h \
  ../Sources/gsc_scheduler/periodic_tasks/..\..\app\..\dcl\io.h \
  ../Sources/gsc_scheduler/periodic_tasks/..\..\app\..\dcl\..\mcl\uart.h \
  ../Sources/gsc_scheduler/periodic_tasks/..\..\app\..\dcl\libs.h \
  ../Sources/gsc_scheduler/periodic_tasks/..\..\app\..\dcl\..\dcl\io.h \
+ C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/Variables.h \
  ../Sources/gsc_scheduler/periodic_tasks/..\..\app\..\dcl\ledDrivers.h \
  ../Sources/gsc_scheduler/periodic_tasks/..\..\app\appChar.h \
  ../Sources/gsc_scheduler/periodic_tasks/..\..\app\StopBitApp.h \
@@ -37,11 +38,11 @@ C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_c_version.
 
 ../Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.h:
 
-C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/stdtypedef.h:
+C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/stdtypedef.h:
 
-C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/derivative.h:
+C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/derivative.h:
 
-C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/MKL25Z4.h:
+C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/MKL25Z4.h:
 
 C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/stdint.h:
 
@@ -63,7 +64,7 @@ C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_lib_ext1.h
 
 ../Sources/gsc_scheduler/periodic_tasks/..\..\mcl\IO_PinCfg.h:
 
-C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/derivative.h:
+C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/derivative.h:
 
 ../Sources/gsc_scheduler/periodic_tasks/..\..\app\actuatorApp.h:
 
@@ -76,6 +77,8 @@ C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digi
 ../Sources/gsc_scheduler/periodic_tasks/..\..\app\..\dcl\libs.h:
 
 ../Sources/gsc_scheduler/periodic_tasks/..\..\app\..\dcl\..\dcl\io.h:
+
+C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/Variables.h:
 
 ../Sources/gsc_scheduler/periodic_tasks/..\..\app\..\dcl\ledDrivers.h:
 

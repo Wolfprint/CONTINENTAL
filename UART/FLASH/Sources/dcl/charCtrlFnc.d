@@ -4,8 +4,8 @@ Sources/dcl/charCtrlFnc.o: ../Sources/dcl/charCtrlFnc.c \
  C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_c_version.h \
  ../Sources/dcl/charCtrlFnc.h ../Sources/dcl/io.h \
  ../Sources/dcl/..\mcl\uart.h \
- C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/derivative.h \
- C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/MKL25Z4.h \
+ C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/derivative.h \
+ C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/MKL25Z4.h \
  C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/stdint.h \
  C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/ansi_parms.h \
  C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewlGlobals.h \
@@ -14,9 +14,10 @@ Sources/dcl/charCtrlFnc.o: ../Sources/dcl/charCtrlFnc.c \
  C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/cstdint \
  C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/limits_api.h \
  C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_lib_ext1.h \
- C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/stdtypedef.h \
- C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/derivative.h \
- ../Sources/dcl/libs.h ../Sources/dcl/..\dcl\io.h
+ C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/stdtypedef.h \
+ C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/derivative.h \
+ ../Sources/dcl/libs.h ../Sources/dcl/..\dcl\io.h \
+ C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/Variables.h
 
 C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/lib_ewl.prefix:
 
@@ -30,9 +31,9 @@ C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_c_version.
 
 ../Sources/dcl/..\mcl\uart.h:
 
-C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/derivative.h:
+C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/derivative.h:
 
-C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/MKL25Z4.h:
+C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/MKL25Z4.h:
 
 C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/stdint.h:
 
@@ -50,10 +51,12 @@ C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/limits_api.h:
 
 C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_lib_ext1.h:
 
-C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/stdtypedef.h:
+C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/stdtypedef.h:
 
-C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/derivative.h:
+C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/derivative.h:
 
 ../Sources/dcl/libs.h:
 
 ../Sources/dcl/..\dcl\io.h:
+
+C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/Variables.h:

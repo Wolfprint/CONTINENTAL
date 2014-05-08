@@ -3,8 +3,8 @@ Sources/mcl/ARM_SysTick.o: ../Sources/mcl/ARM_SysTick.c \
  C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/common.prefix \
  C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_c_version.h \
  ../Sources/mcl/ARM_SysTick.h \
- C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/derivative.h \
- C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/MKL25Z4.h \
+ C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/derivative.h \
+ C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/MKL25Z4.h \
  C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/stdint.h \
  C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/ansi_parms.h \
  C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewlGlobals.h \
@@ -23,9 +23,9 @@ C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_c_version.
 
 ../Sources/mcl/ARM_SysTick.h:
 
-C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/derivative.h:
+C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/derivative.h:
 
-C:/Users/FlatBlock/Documents/8vo\ Semestre/Tópicos\ Selectos\ el\ Sistemas\ Digitales/Tópicos-Codewarrior/Scheduler\ UART/Project_Headers/MKL25Z4.h:
+C:/Users/FlatBlock/Desktop/gsc_sch_MKL25Z128_UART/Project_Headers/MKL25Z4.h:
 
 C:/Freescale/CW\ MCU\ v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include/stdint.h:
 

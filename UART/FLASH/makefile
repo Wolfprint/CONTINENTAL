@@ -2,7 +2,7 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-#Progress monitor hint: 13
+#Progress monitor hint: 23
 first : all
 -include ../makefile.init
 
@@ -16,6 +16,8 @@ RM := "$(GNU_Make_Install_DirEnv)/rm" -rf
 -include subdir.mk
 -include Sources/subdir.mk
 -include Sources/mcl/subdir.mk
+-include Sources/gsc_scheduler/periodic_tasks/subdir.mk
+-include Sources/gsc_scheduler/gsc_sch_core/subdir.mk
 -include Sources/dcl/subdir.mk
 -include Sources/app/subdir.mk
 -include Project_Settings/Startup_Code/subdir.mk
@@ -46,30 +48,30 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-U0_module.elf \
+gsc_sch_MKL25Z128.elf \
 
 EXECUTABLES_QUOTED += \
-"U0_module.elf" \
+"gsc_sch_MKL25Z128.elf" \
 
 EXECUTABLES_OS_FORMAT += \
-U0_module.elf \
+gsc_sch_MKL25Z128.elf \
 
 
 # All Target
-all: warning-messages explicit-dependencies U0_module.elf secondary-outputs
+all: warning-messages explicit-dependencies gsc_sch_MKL25Z128.elf secondary-outputs
 
 # Tool invocations
-U0_module.elf: $(OBJS) $(USER_OBJS) ../Project_Settings/Linker_Files/MKL25Z128_flash.ld
+gsc_sch_MKL25Z128.elf: $(OBJS) $(USER_OBJS) ../Project_Settings/Linker_Files/MKL25Z128_flash.ld
 	@echo 'Building target: $@'
-	@echo 'Executing target #14 $@'
+	@echo 'Executing target #24 $@'
 	@echo 'Invoking: ARM Ltd Windows GCC C Linker'
-	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc"  $(USER_OBJS_QUOTED) $(LIBS_QUOTED) @"U0_module.args" -o"U0_module.elf"
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc"  $(USER_OBJS_QUOTED) $(LIBS_QUOTED) @"gsc_sch_MKL25Z128.args" -o"gsc_sch_MKL25Z128.elf"
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(S_DEPS_QUOTED) "./*/*/*.o" "./*/*.o"  $(S_UPPER_DEPS_QUOTED) $(ASM_DEPS_QUOTED) $(ASM_UPPER_DEPS_QUOTED) $(SX_DEPS_QUOTED) $(EXECUTABLES_QUOTED) "./*/*/*.d" "./*/*.d"  $(ProjDirPath)/FLASH/U0_module.elf
+	-$(RM) $(S_DEPS_QUOTED) "./*/*/*.o" "./*/*/*/*.o" "./*/*.o"  $(S_UPPER_DEPS_QUOTED) $(ASM_DEPS_QUOTED) $(ASM_UPPER_DEPS_QUOTED) $(SX_DEPS_QUOTED) $(EXECUTABLES_QUOTED) "./*/*/*.d" "./*/*/*/*.d" "./*/*.d"  $(ProjDirPath)/FLASH/gsc_sch_MKL25Z128.elf
 	-@echo ' '
 
 secondary-outputs:

@@ -4,8 +4,8 @@
 -g3
 -gdwarf-2
 -gstrict-dwarf
--I"C:/Users/FlatBlock/Documents/8vo Semestre/Tópicos Selectos el Sistemas Digitales/Tópicos-Codewarrior/U0_module/Project_Headers"
--I"C:/Users/FlatBlock/Documents/8vo Semestre/Tópicos Selectos el Sistemas Digitales/Tópicos-Codewarrior/U0_module/Project_Settings/Startup_Code"
+-I"C:/Users/FlatBlock/Documents/8vo Semestre/Tópicos Selectos el Sistemas Digitales/Tópicos-Codewarrior/Scheduler UART/Project_Headers"
+-I"C:/Users/FlatBlock/Documents/8vo Semestre/Tópicos Selectos el Sistemas Digitales/Tópicos-Codewarrior/Scheduler UART/Project_Settings/Startup_Code"
 -I"C:/Freescale/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include"
 -I"C:/Freescale/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/EWL_Runtime/include"
 -O0

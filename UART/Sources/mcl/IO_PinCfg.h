@@ -21,8 +21,8 @@
 /* ---------------------------------------------------- */
 
 //Constant names for output pins
-#define PTA1_OUT (1<<1)
-#define PTA2_OUT (1<<2)
+#define PTB1_OUT (1<<1)
+#define PTB2_OUT (1<<2)
 
 
 void IOPorts_Init();

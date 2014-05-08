@@ -104,7 +104,7 @@ void selector() {
 		re_selStatus = SEL_HL;
 	} else {
 		//do nothing
-		re_selStatus= SEL_OFF;
+		//re_selStatus= SEL_OFF;
 	}
 }
 
@@ -116,10 +116,15 @@ void selector() {
  *  Critical/explanation : no
  **************************************************************/
 void lightSensor() {
-	if (re_selStatus == SEL_AUTO) {
+	if (re_selStatus == SEL_OFF){
+		re_sensorStatus=LS_HIGH;
+		es_ctrlFlag.errAdc=0;
+	} else if (re_selStatus == SEL_AUTO) {
+	
 		if ((!rs_charVal.bit5 && !rs_charVal.bit4)
 				& (re_ignStatus ==IS_OFF || re_ignStatus ==IS_ACC || re_ignStatus ==IS_RUN || re_ignStatus ==IS_START)) {
 			// 00 invalid
+			es_ctrlFlag.errAdc=1;
 			re_sensorStatus = LS_INV;
 		} else if ((!rs_charVal.bit5 && rs_charVal.bit4)
 				& (re_ignStatus ==IS_OFF || re_ignStatus ==IS_ACC || re_ignStatus ==IS_RUN || re_ignStatus ==IS_START)) {
@@ -136,7 +141,13 @@ void lightSensor() {
 		} else {
 			//do nothing
 		}
-	} else {
+	} else if (re_selStatus == SEL_PL){
+		re_sensorStatus = LS_MED;
+		es_ctrlFlag.errAdc=0;
+	}   else if (re_selStatus == SEL_HL){
+		re_sensorStatus = LS_LOW;
+		es_ctrlFlag.errAdc=0;
+	}  else {
 		//do nothing
 	}
 }
@@ -144,8 +155,12 @@ void lightSensor() {
 void stopBit() {
 	if (rs_charVal.bit6) {
 		re_sbStatus = STOP;
+		es_ctrlFlag.sbest=0;
+
 	} else {
 		re_sbStatus = TxRx;
+		es_ctrlFlag.sbest=1;
+
 	}
 }
 
@@ -164,8 +179,39 @@ void checksum() {
 			+ rs_charVal.bit3 + rs_charVal.bit4 + rs_charVal.bit5
 			+ rs_charVal.bit6);
 	lub_checksum = lub_checksum & 1;
-	rs_charVal.bit7 = lub_checksum;
+	if (lub_checksum) {
+		rs_charVal.bit7 = 0;
+	} else {
+		rs_charVal.bit7 = 1;
+	}
 }
+
+/**************************************************************
+ *  Name                 : infoBits
+ *  Description          : assigns binary value for information
+ *                         status                                 
+ *  Parameters           : none
+ *  Return               : none
+ *  Critical/explanation : no
+ **************************************************************/
+void infoBits() {
+	if (!es_ctrlFlag.errCh & !es_ctrlFlag.errAdc) {
+		es_ctrlFlag.inf1 = 0;
+		es_ctrlFlag.inf0 = 0;
+		
+	} else if ((rs_charVal.bit7 != 0) | (rs_charVal.bit7 != 1)) {
+		es_ctrlFlag.inf1 = 0;
+		es_ctrlFlag.inf0 = 1;
+		es_ctrlFlag.errCh=0;
+		es_ctrlFlag.errAdc=0;
+	} else if (es_ctrlFlag.sbest) {
+		es_ctrlFlag.inf1 = 1;
+		es_ctrlFlag.inf0 = 0;
+	} else {
+		//do nothing
+	}
+}
+
 
 /**************************************************************
  *  Name                 : 

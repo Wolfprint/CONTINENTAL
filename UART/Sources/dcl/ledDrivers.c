@@ -23,7 +23,7 @@
  *  Critical/explanation : no
  **************************************************************/
 void ParkLamps_ON() {
-	GPIOA_PSOR |= PL_ON;
+	GPIOB_PCOR |= PL;
 }
 
 /**************************************************************
@@ -34,7 +34,7 @@ void ParkLamps_ON() {
  *  Critical/explanation : no
  **************************************************************/
 void ParkLamps_OFF() {
-	GPIOA_PSOR |= PL_OFF;
+	GPIOB_PSOR |= PL;
 }
 
 /**************************************************************
@@ -45,7 +45,7 @@ void ParkLamps_OFF() {
  *  Critical/explanation : no
  **************************************************************/
 void HeadLamps_ON() {
-	GPIOA_PSOR |= HL_ON;
+	GPIOB_PCOR |= HL;
 }
 
 /**************************************************************
@@ -56,7 +56,7 @@ void HeadLamps_ON() {
  *  Critical/explanation : no
  **************************************************************/
 void HeadLamps_OFF() {
-	GPIOA_PSOR |= HL_OFF;
+	GPIOB_PSOR |= HL;
 }
 
 /**************************************************************

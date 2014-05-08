@@ -20,10 +20,10 @@
 
 /* Functions macros, constants, types and datas         */
 /* ---------------------------------------------------- */
-#define PL_ON   (1<<1)
-#define PL_OFF    0
-#define HL_ON   (1<<2)
-#define HL_OFF   PL_OFF
+#define PL   (1<<1)
+
+#define HL  (1<<2)
+
 
 void ParkLamps_ON();
 void ParkLamps_OFF();

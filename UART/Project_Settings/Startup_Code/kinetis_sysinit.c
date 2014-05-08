@@ -6,7 +6,7 @@
  
 #include "kinetis_sysinit.h"
 #include "derivative.h"
-
+#include "..\..\Sources\mcl\sysinit.h"
 /**
  **===========================================================================
  **  External declarations
@@ -43,6 +43,8 @@ void __init_hardware()
 	
 	// Disable the Watchdog because it may reset the core before entering main().
 	SIM_COPC = KINETIS_WDOG_DISABLED_CTRL;
+	
+	sysinit();
 }
 
 /* Weak definitions of handlers point to Default_Handler if not implemented */

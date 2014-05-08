@@ -61,6 +61,8 @@ OBJS_OS_FORMAT :=
 SUBDIRS := \
 Sources \
 Sources/mcl \
+Sources/gsc_scheduler/periodic_tasks \
+Sources/gsc_scheduler/gsc_sch_core \
 Sources/dcl \
 Sources/app \
 Project_Settings/Startup_Code \
